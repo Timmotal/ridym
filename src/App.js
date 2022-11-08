@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import { useSelector } from 'react-redux';
+import { Route, Routes } from 'react-router-dom';
 
-function App() {
+import { Searchbar, Sidebar, MusicPlayer, TopPlay } from './components';
+import { ArtistDetails, TopArtists, AroundYou, Discover, Search, SongDetails, TopCharts } from './pages';
+
+const App = () => {
+  const { activeSong } = useSelector((state) => state.player);
+  
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="relative flex">
+   
+      
     </div>
   );
-}
+};
 
-export default App;
+
