@@ -16,7 +16,16 @@ const App = () => {
 
         <div className="px-6 h-[calc(100vh-72px)] overflow-y-scroll hide-scrollbar flex xl:flex-row flex-col-reverse">
           <div className="flex-1 h-fit pb-40">
-      
+            <Routes>
+             
+            
+             
+              
+              
+           
+              {/* i need to add a isFetching messgae for the lyrics component, im clicking at he wrong place, click at the title andparagraspgh */}
+         
+            </Routes>
           </div>
          
         </div>
