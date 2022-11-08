@@ -18,4 +18,5 @@ const ArtistCard = ({ track }) => {
     </div>
   )
 };
-\\
+
+export default ArtistCard;
