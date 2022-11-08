@@ -24,7 +24,7 @@ const App = () => {
               <Route path="/artists/:id" element={<ArtistDetails />} />
               <Route path="/songs/:songid" element={<SongDetails />} />
               {/* i need to add a isFetching messgae for the lyrics component, im clicking at he wrong place, click at the title andparagraspgh */}
-         
+              <Route path="/search/:searchTerm" element={<Search />} />
             </Routes>
           </div>
          
