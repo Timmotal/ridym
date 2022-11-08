@@ -10,7 +10,7 @@ const App = () => {
 
   return (
     <div className="relative flex">
-   
+      <Sidebar />
       
     </div>
   );
