@@ -12,7 +12,9 @@ const ArtistCard = ({ track }) => {
     //   the answer lies in the loop bro and check it out just above
     >
       <img src={track?.images?.coverart} alt="" className="w-full h-56 rounded-lg" />
-    \
+      <p className="mt-4 text-white font-semibold text-lg truncate">
+     \
+      </p>
     </div>
   )
 };
