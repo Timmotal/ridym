@@ -7,7 +7,7 @@ const Controls = ({ isPlaying, repeat, setRepeat, shuffle, setShuffle, currentSo
     <BsArrowRepeat size={20} color={repeat ? 'red' : 'white'} onClick={() => setRepeat((prev) => !prev)} className="hidden sm:block cursor-pointer" />
     {currentSongs?.length && <MdSkipPrevious size={30} color="#FFF" className="cursor-pointer" onClick={handlePrevSong} />}
     {isPlaying ? (
-   
+      <BsFillPauseFill  />
    
    
   </div>
