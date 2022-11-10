@@ -9,7 +9,7 @@ const Controls = ({ isPlaying, repeat, setRepeat, shuffle, setShuffle, currentSo
     {isPlaying ? (
       <BsFillPauseFill size={45} color="#FFF" onClick={handlePlayPause} className="cursor-pointer" />
     ) : (
-      <BsFillPlayFill size={45} color="#FFF" onClick={handlePlayPause} />
+      <BsFillPlayFill size={45} color="#FFF" onClick={handlePlayPause} className="cursor-pointer" />
     )}
 
    
