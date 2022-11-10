@@ -4,7 +4,7 @@ import { BsArrowRepeat, BsFillPauseFill, BsFillPlayFill, BsShuffle } from 'react
 
 const Controls = ({ isPlaying, repeat, setRepeat, shuffle, setShuffle, currentSongs, handlePlayPause, handlePrevSong, handleNextSong }) => (
   <div className="flex items-center justify-around md:w-36 lg:w-52 2xl:w-80">
-    <BsArrowRepeat/>
+    <BsArrowRepeat size={20} color={repeat ? 'red' : 'white'} onClick={() => setRepeat((prev) => !prev)}  />
    
   
    
