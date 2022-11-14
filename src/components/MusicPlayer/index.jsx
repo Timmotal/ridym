@@ -86,7 +86,7 @@ const MusicPlayer = () => {
           currentIndex={currentIndex}
           onEnded={handleNextSong}
           onTimeUpdate={(event) => setAppTime(event.target.currentTime)}
-    
+          onLoadedData={(event) => setDuration(event.target.duration)}
         />
       </div>
     
