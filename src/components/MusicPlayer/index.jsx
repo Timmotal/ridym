@@ -81,7 +81,7 @@ const MusicPlayer = () => {
           activeSong={activeSong}
           volume={volume}
           isPlaying={isPlaying}
-    
+          seekTime={seekTime}
  
 
  
