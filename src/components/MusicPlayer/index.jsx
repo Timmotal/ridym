@@ -28,6 +28,8 @@ const MusicPlayer = () => {
 
     if (isPlaying) {
       dispatch(playPause(false));
+    } else {
+      dispatch(playPause(true));
     }
   };
 
