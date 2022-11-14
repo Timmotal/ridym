@@ -18,7 +18,11 @@ const MusicPlayer = () => {
   const [shuffle, setShuffle] = useState(false);
   const dispatch = useDispatch();
 
-  
+  useEffect(() => {
+    // i tried add a question mark, yet it worked but dev tools kept saying there's still a problem
+    if (currentSongs.length) dispatch(playPause(true));
+  }, [currentIndex]);
+
  
 
  
