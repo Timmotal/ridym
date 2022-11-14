@@ -9,7 +9,7 @@ import Track from './Track';
 import VolumeBar from './VolumeBar';
 
 const MusicPlayer = () => {
-
+  const { activeSong, currentSongs, currentIndex, isActive, isPlaying } = useSelector((state) => state.player);
 
  
 
