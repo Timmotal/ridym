@@ -44,7 +44,9 @@ const MusicPlayer = () => {
   };
 
   const handlePrevSong = () => {
-     
+    if (currentIndex === 0) {
+      dispatch(prevSong(currentSongs.length - 1));
+    } 
   };
 
   
