@@ -77,7 +77,17 @@ const MusicPlayer = () => {
           setSeekTime={setSeekTime}
           appTime={appTime}
         />
+        <Player
       
+
+    
+    
+ 
+
+ 
+
+    
+        />
       </div>
     
     </div>
