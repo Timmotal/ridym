@@ -70,7 +70,8 @@ const MusicPlayer = () => {
           handleNextSong={handleNextSong}
         />
         <Seekbar
-        
+          value={appTime}
+          min="0"
        
         />
       
