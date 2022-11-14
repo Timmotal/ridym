@@ -64,7 +64,8 @@ const MusicPlayer = () => {
           setRepeat={setRepeat}
           shuffle={shuffle}
           setShuffle={setShuffle}
-        
+          currentSongs={currentSongs}
+          handlePlayPause={handlePlayPause}
         
         />
       
