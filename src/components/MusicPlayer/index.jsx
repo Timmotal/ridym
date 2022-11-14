@@ -26,7 +26,9 @@ const MusicPlayer = () => {
   const handlePlayPause = () => {
     if (!isActive) return;
 
-    
+    if (isPlaying) {
+      dispatch(playPause(false));
+    }
   };
 
  
