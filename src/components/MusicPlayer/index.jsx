@@ -34,7 +34,8 @@ const MusicPlayer = () => {
   };
 
   const handleNextSong = () => {
- 
+    dispatch(playPause(false));
+
    
   };
 
