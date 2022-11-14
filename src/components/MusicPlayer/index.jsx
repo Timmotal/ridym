@@ -84,7 +84,7 @@ const MusicPlayer = () => {
           seekTime={seekTime}
           repeat={repeat}
           currentIndex={currentIndex}
- 
+          onEnded={handleNextSong}
 
     
         />
