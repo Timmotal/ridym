@@ -15,7 +15,7 @@ const MusicPlayer = () => {
   const [appTime, setAppTime] = useState(0);
   const [volume, setVolume] = useState(0.3);
   const [repeat, setRepeat] = useState(false);
-
+  const [shuffle, setShuffle] = useState(false);
 
 
   
