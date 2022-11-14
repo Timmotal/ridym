@@ -43,7 +43,10 @@ const MusicPlayer = () => {
     }
   };
 
- 
+  const handlePrevSong = () => {
+     
+  };
+
   
 };
 
