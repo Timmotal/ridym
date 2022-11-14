@@ -33,7 +33,11 @@ const MusicPlayer = () => {
     }
   };
 
+  const handleNextSong = () => {
  
+   
+  };
+
  
   
 };
