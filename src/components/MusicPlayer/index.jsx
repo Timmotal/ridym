@@ -79,7 +79,7 @@ const MusicPlayer = () => {
         />
         <Player
           activeSong={activeSong}
-
+          volume={volume}
     
     
  
