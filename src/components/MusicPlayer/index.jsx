@@ -8,6 +8,22 @@ import Seekbar from './Seekbar';
 import Track from './Track';
 import VolumeBar from './VolumeBar';
 
+const MusicPlayer = () => {
 
+
+ 
+
+ 
+
+
+
+
+  
+ 
+
+ 
+ 
+  
+};
 
 
