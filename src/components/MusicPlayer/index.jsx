@@ -60,7 +60,8 @@ const MusicPlayer = () => {
         <Controls
           isPlaying={isPlaying}
           isActive={isActive}
-  
+          repeat={repeat}
+          setRepeat={setRepeat}
     
         
         
