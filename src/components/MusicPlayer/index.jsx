@@ -69,7 +69,10 @@ const MusicPlayer = () => {
           handlePrevSong={handlePrevSong}
           handleNextSong={handleNextSong}
         />
-      
+        <Seekbar
+        
+       
+        />
       
       </div>
     
