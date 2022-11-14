@@ -14,7 +14,7 @@ const MusicPlayer = () => {
   const [seekTime, setSeekTime] = useState(0);
   const [appTime, setAppTime] = useState(0);
   const [volume, setVolume] = useState(0.3);
-
+  const [repeat, setRepeat] = useState(false);
 
 
 
