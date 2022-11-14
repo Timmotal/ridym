@@ -78,7 +78,7 @@ const MusicPlayer = () => {
           appTime={appTime}
         />
         <Player
-      
+          activeSong={activeSong}
 
     
     
