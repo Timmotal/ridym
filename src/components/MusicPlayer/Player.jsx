@@ -26,7 +26,8 @@ const Player = ({ activeSong, isPlaying, volume, seekTime, onEnded, onTimeUpdate
       ref={ref}
       loop={repeat}
       onEnded={onEnded}
-
+      onTimeUpdate={onTimeUpdate}
+      onLoadedData={onLoadedData}
     />
   );
 };
