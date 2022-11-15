@@ -21,7 +21,11 @@ const Player = ({ activeSong, isPlaying, volume, seekTime, onEnded, onTimeUpdate
   }, [seekTime]);
 
   return (
-  
+    <audio
+      
+      
+
+    />
   );
 };
 
