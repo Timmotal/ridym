@@ -2,7 +2,10 @@
 import React, { useRef, useEffect } from 'react';
 
 const Player = ({ activeSong, isPlaying, volume, seekTime, onEnded, onTimeUpdate, onLoadedData, repeat }) => {
- 
+  const ref = useRef(null);
+  // eslint-disable-next-line no-unused-expressions
+  i
+
 
   // updates audio element only on seekTime change (and not on each rerender):
  
