@@ -32,4 +32,4 @@ const Player = ({ activeSong, isPlaying, volume, seekTime, onEnded, onTimeUpdate
   );
 };
 
-
+export default Player;
