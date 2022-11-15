@@ -20,7 +20,9 @@ const Player = ({ activeSong, isPlaying, volume, seekTime, onEnded, onTimeUpdate
     ref.current.currentTime = seekTime;
   }, [seekTime]);
 
- 
+  return (
+  
+  );
 };
 
 
