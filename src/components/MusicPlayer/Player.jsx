@@ -7,6 +7,8 @@ const Player = ({ activeSong, isPlaying, volume, seekTime, onEnded, onTimeUpdate
   if (ref.current) {
     if (isPlaying) {
       ref.current.play();
+    } else {
+      ref.current.pause();
     }
   }
 
