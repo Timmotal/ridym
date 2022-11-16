@@ -9,7 +9,7 @@ const Seekbar = ({ value, min, max, onInput, setSeekTime, appTime }) => {
       <button type="button" onClick={() => setSeekTime(appTime - 5)} className="hidden lg:mr-4 lg:block text-white">
         -
       </button>
-
+      <p className="text-white">{value === 0 ? '0:00' : getTime(value)}</p>
      
   
     </div>
