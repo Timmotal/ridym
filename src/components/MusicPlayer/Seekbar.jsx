@@ -16,7 +16,8 @@ const Seekbar = ({ value, min, max, onInput, setSeekTime, appTime }) => {
         value={value}
         min={min}
         max={max}
-
+        onInput={onInput}
+        className="md:block w-24 md:w-56 2xl:w-96 h-1 mx-4 2xl:mx-6 rounded-lg"
       />
   
     </div>
