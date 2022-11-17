@@ -6,7 +6,9 @@ const Track = ({ isPlaying, isActive, activeSong }) => (
       <img src={activeSong?.images?.coverart} alt="cover art" className="rounded-full" />
     </div>
     <div className="w-[50%]">
-    
+      <p className="truncate text-white font-bold text-lg">
+       
+      </p>
     
     </div>
   </div>
