@@ -26,7 +26,10 @@ const DetailsHeader = ({ artistId, artistData, songData }) => {
           </Link>
         )}
 
-      
+          <p className="text-base text-gray-400 mt-2">
+            {/* we use " ?. " so we make sure that the data exists if it doesn't then javascript returns undefined which is better than err */}
+     
+          </p>
       </div>
     </div>
  
