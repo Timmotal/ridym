@@ -10,7 +10,10 @@ const DetailsHeader = ({ artistId, artistData, songData }) => {
 
     <div className="absolute inset-0 flex items-center">
       {/* does the space between the question marks matter, tinker and figure */}
-     
+      <img src={artistId ? artist.artwork.url.replace('{w}', '500').replace('{h}', '500')
+      : songData?.images?.coverart} 
+      className="sm:w-48 w-28 sm:h-48 h-28 rounded-full object-cover border-2 shadow-xl shadow-black"
+      alt="art" />
 
     
     </div>
