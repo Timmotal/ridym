@@ -15,7 +15,11 @@ const DetailsHeader = ({ artistId, artistData, songData }) => {
       className="sm:w-48 w-28 sm:h-48 h-28 rounded-full object-cover border-2 shadow-xl shadow-black"
       alt="art" />
 
-    
+      <div className="ml-5">
+     >
+       
+      
+      </div>
     </div>
  
     {/* <div>DetailsHeader</div> */}
