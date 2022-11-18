@@ -17,7 +17,11 @@ const DetailsHeader = ({ artistId, artistData, songData }) => {
 
       <div className="ml-5">
         <p className="font-bold sm:text-3xl text-xl text-white">{artistId ? artist.name : songData?.title}</p>
-       
+        { // this means if (there is) no artistId and "&&" means then render this code
+        !artistId && ( //why render if no artistId
+        
+        )}
+
       
       </div>
     </div>
