@@ -20,7 +20,9 @@ const DetailsHeader = ({ artistId, artistData, songData }) => {
         { // this means if (there is) no artistId and "&&" means then render this code
         !artistId && ( //why render if no artistId
           <Link to={`/artists/${songData?.artists[0].adamid}`}>
+          <p className="text-base text-gray-400 mt-2">
        
+          </p>
           </Link>
         )}
 
