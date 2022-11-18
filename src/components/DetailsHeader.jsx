@@ -38,4 +38,4 @@ const DetailsHeader = ({ artistId, artistData, songData }) => {
   </div>
   )};
 
-
+export default DetailsHeader;
