@@ -17,7 +17,7 @@ export {
   Searchbar,
   ArtistCard,
   DetailsHeader,
-
+  SongBar,
 
 
 
