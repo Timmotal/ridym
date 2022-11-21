@@ -19,7 +19,7 @@ export {
   DetailsHeader,
   SongBar,
   RelatedSongs,
-
+  MusicPlayer,
 
 
 };
