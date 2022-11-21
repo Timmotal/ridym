@@ -20,6 +20,6 @@ export {
   SongBar,
   RelatedSongs,
   MusicPlayer,
-
+  Loader,
 
 };
