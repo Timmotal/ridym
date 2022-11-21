@@ -12,7 +12,7 @@ import Error from './Error';
 
 export {
   TopPlay,
-
+  Sidebar,
 
 
 
