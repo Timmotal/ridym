@@ -16,4 +16,4 @@ const Controls = ({ isPlaying, repeat, setRepeat, shuffle, setShuffle, currentSo
   </div>
 );
 
-export default Controls;
+export default Controls; 

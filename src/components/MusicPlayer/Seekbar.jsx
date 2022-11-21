@@ -28,3 +28,48 @@ const Seekbar = ({ value, min, max, onInput, setSeekTime, appTime }) => {
 };
 
 export default Seekbar;
+
+
+function getRating(watchList){
+  // Add your code below this line
+  const averageRating = watchList
+    .filter(film => film.Director === "Christopher Nolan")
+    .map(film => Number(film.imdbRating))
+    .reduce((sumOfRatings, rating) => sumOfRatings + rating) /
+  watchList.filter(film => film.Director === "Christopher Nolan").length;
+  // Add your code above this line
+  return averageRating;
+}
+
+
+------------------------------------------------
+const nolanData = watchList
+    .reduce((movie, { Director: director, imdbRating: rating }) => {
+      if (director === 'Christopher Nolan') {
+        movie.count++;
+        movie.sum += Number(rating);
+      }
+      return movie;
+    }, { sum: 0, count: 0 });
+  const averageRating = nolanData.sum / nolanData.count;
+  // Add your code above this line
+  return averageRating;
+}
+
+const squareList = (arr) => {
+  // Only change code below this line
+  return arr
+    
+  // Only change code above this line
+};
+
+const squaredIntegers = squareList([-3, 4.8, 5, 3, -3.2]);
+console.log(squaredIntegers);
+
+
+return [].concat( arr ).sort( function( a, b) {
+  return a - b; 
+});
+
+
+
