@@ -7,7 +7,7 @@ import DetailsHeader from './DetailsHeader';
 import SongBar from './SongBar';
 import RelatedSongs from './RelatedSongs';
 import MusicPlayer from './MusicPlayer';
-
+import Loader from './Loader';
 ;
 
 export {
