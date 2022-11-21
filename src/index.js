@@ -14,7 +14,7 @@ export {
   TopPlay,
   Sidebar,
   SongCard,
-
+  Searchbar,
 
 
 
