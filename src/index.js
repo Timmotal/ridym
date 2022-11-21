@@ -18,7 +18,7 @@ export {
   ArtistCard,
   DetailsHeader,
   SongBar,
-
+  RelatedSongs,
 
 
 
