@@ -21,5 +21,5 @@ export {
   RelatedSongs,
   MusicPlayer,
   Loader,
-
+  Error,
 };
