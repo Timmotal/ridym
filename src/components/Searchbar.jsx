@@ -20,7 +20,7 @@ const Searchbar = () => {
     <label htmlFor="search-field" className="sr-only">
     search for any song
     </label>
-    <div >
+    <div className="flex flex-row justify-start items-center">
 
     
     </div>
