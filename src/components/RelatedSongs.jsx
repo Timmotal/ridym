@@ -6,7 +6,9 @@ const RelatedSongs = ({ data, isPlaying, activeSong, handlePauseClick, handlePla
       Related Songs
     </h1>
 
-   
+    <div className="mt- w-full flex flex-col">
+    
+    </div>
   </div>
   // <div>Loader</div>
 );
