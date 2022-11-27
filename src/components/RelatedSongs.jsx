@@ -14,7 +14,7 @@ const RelatedSongs = ({ data, isPlaying, activeSong, handlePauseClick, handlePla
           i={i}
           artistId={artistId}
           isPlaying={isPlaying}
-        
+          activeSong={activeSong}
         
      
         />
