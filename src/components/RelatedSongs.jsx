@@ -13,7 +13,11 @@ const RelatedSongs = ({ data, isPlaying, activeSong, handlePauseClick, handlePla
           song={song}
           i={i}
           artistId={artistId}
-         />
+          isPlaying={isPlaying}
+        
+        
+     
+        />
       ))}
     </div>
   </div>
