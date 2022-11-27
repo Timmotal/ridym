@@ -7,6 +7,13 @@ const PlayPause = ({ isPlaying, activeSong, song, handlePause, handlePlay }) => 
                           className="text-gray-300"
                           onClick={handlePause} 
                           /> 
-                          ) : 
+                          ) : (
+                             <FaPlayCircle 
+                         
+                        
+                            
+                             /> 
+                             ))
+  // <div>Loader</div>
 ;
 
