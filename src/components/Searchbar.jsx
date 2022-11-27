@@ -15,7 +15,7 @@ const Searchbar = () => {
   return(
   <form
   onSubmit={handleSubmit}
-   
+   autoComplete="off" 
   
   </form>
 )};
