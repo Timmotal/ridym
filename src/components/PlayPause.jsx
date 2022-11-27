@@ -9,7 +9,7 @@ const PlayPause = ({ isPlaying, activeSong, song, handlePause, handlePlay }) => 
                           /> 
                           ) : (
                              <FaPlayCircle 
-                         
+                             size={35}
                         
                             
                              /> 
