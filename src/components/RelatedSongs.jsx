@@ -12,6 +12,7 @@ const RelatedSongs = ({ data, isPlaying, activeSong, handlePauseClick, handlePla
           key={`{song.key}-${artistId}`} 
           song={song}
           i={i}
+          artistId={artistId}
          />
       ))}
     </div>
