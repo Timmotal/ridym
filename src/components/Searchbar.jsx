@@ -30,7 +30,7 @@ const Searchbar = () => {
         type="search"
         value={searchTerm}
         className="flex-1 bg-transparent border-none p-4 outline-none placeholder-gray-500 text-base text-white"
-        onChange={}
+        onChange={(e) => setSearchTerm(e.target.value)}
       />
     </div>
   </form>
