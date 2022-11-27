@@ -9,7 +9,7 @@ const Searchbar = () => {
   const handleSubmit = (e) => {
     e.preventDefault(); // the default behaviour of browser is to reload the page when you submit a submittable element
 
-    
+    navigate(`/search/${searchTerm}`); 
   }
   
   return(
