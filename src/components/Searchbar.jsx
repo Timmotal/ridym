@@ -24,6 +24,7 @@ const Searchbar = () => {
       <FiSearch className="w-5 h-5 ml-4" />
       <input 
         name="search-field"
+        autoComplete="off"
       />
     </div>
   </form>
