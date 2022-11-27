@@ -27,6 +27,7 @@ const Searchbar = () => {
         autoComplete="off"
         id="search-field"
         placeholder="Search For Any Music"
+        type="search"
       />
     </div>
   </form>
