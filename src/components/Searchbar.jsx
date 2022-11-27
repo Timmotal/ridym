@@ -28,6 +28,7 @@ const Searchbar = () => {
         id="search-field"
         placeholder="Search For Any Music"
         type="search"
+        value={searchTerm}
       />
     </div>
   </form>
