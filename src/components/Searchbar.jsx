@@ -25,6 +25,7 @@ const Searchbar = () => {
       <input 
         name="search-field"
         autoComplete="off"
+        id="search-field"
       />
     </div>
   </form>
