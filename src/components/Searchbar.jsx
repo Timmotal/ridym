@@ -6,7 +6,9 @@ const Searchbar = () => {
   const navigate = useNavigate();
   const [ searchTerm, setSearchTerm ] = useState(''); 
 
- 
+  const handleSubmit = (e) => {
+  }
+  
   return(
   
 )};
