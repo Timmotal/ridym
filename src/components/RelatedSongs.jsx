@@ -11,6 +11,7 @@ const RelatedSongs = ({ data, isPlaying, activeSong, handlePauseClick, handlePla
         <SongBar // so how in the world does the related song work eh??
           key={`{song.key}-${artistId}`} 
           song={song}
+          i={i}
          />
       ))}
     </div>
