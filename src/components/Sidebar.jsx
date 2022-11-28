@@ -41,7 +41,7 @@ const Sidebar = () => {
      <div className="absolute md:hidden block top-6 right-3">
       {/* why is  RiCloseLine In Curly () Braces and Not HiOutLineMenu */}
       { mobileMenuOpen ? ( 
-      <RiCloseLine className="w-6 h-6 text-white mr-2"  /> 
+      <RiCloseLine className="w-6 h-6 text-white mr-2" onClick={() => setMobileMenuOpen(false)} /> 
       ) : 
       
       }
