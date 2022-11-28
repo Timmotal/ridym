@@ -17,7 +17,7 @@ const NavLinks = ({ handleClick }) => (
       onClick={() => handleClick && handleClick()}
       >
         <item.icon className="w-6 h-6 mr-2"/>
-   
+        {item.name}
      
     ))}
   </div>
