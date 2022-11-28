@@ -50,7 +50,9 @@ const Sidebar = () => {
       {/* here is a static class the next class is a dynamic class */}
      {/* <div className="md:flex hidden flex-col w-[240px] py-4 px-4 bg-[#191624]"> */}
      <div 
- 
+     className={` absolute top-0 h-screen w-2/3 bg-gradient-to-tl from-white/10 to-[483db8] 
+                  backdrop-blur-lg z-10 p-6 md:hidden smooth transition 
+                  ${mobileMenuOpen ? 'left-0' : 'left-full'} `}>
      
     </div>
     </>
