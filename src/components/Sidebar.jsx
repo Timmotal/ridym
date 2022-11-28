@@ -53,7 +53,9 @@ const Sidebar = () => {
      className={` absolute top-0 h-screen w-2/3 bg-gradient-to-tl from-white/10 to-[483db8] 
                   backdrop-blur-lg z-10 p-6 md:hidden smooth transition 
                   ${mobileMenuOpen ? 'left-0' : 'left-full'} `}>
-     
+      <img src={logo} alt="logo" className="w-full h14 object-contain" />
+      {/* how in the world is the NavLink getting handleLClick??, hAHA IT IS A COMPONENT WHICH IS SOME WHERE UP THERE */}
+
     </div>
     </>
   );
