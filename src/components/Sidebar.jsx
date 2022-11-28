@@ -10,7 +10,13 @@ const NavLinks = ({ handleClick }) => (
   <div className="mt-10">
     {links.map((item) => ( 
       <NavLink 
+      key={item.name}
+      to={item.to}
+      className="flex flex-row justify-start my-8 text-sm font-medium text-gray-400 hover:text-cyan-400"
+      // if handleClick exists only then call handle click, where is handleClick though?
     
+      >
+      
    
      
     ))}
