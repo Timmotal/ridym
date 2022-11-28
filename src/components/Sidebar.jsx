@@ -36,8 +36,12 @@ const Sidebar = () => {
       <NavLinks />
     </div>
 
-    
-    
+     {/* on medium devices and upwards, thats what md:hidden implies tutor says, indeed. */}
+     {/* an icon just to open the menu */}
+     <div className="absolute md:hidden block top-6 right-3">
+     
+     </div>
+
       {/* here is a static class the next class is a dynamic class */}
      {/* <div className="md:flex hidden flex-col w-[240px] py-4 px-4 bg-[#191624]"> */}
     
