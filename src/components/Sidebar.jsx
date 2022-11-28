@@ -39,7 +39,12 @@ const Sidebar = () => {
      {/* on medium devices and upwards, thats what md:hidden implies tutor says, indeed. */}
      {/* an icon just to open the menu */}
      <div className="absolute md:hidden block top-6 right-3">
-     
+      {/* why is  RiCloseLine In Curly () Braces and Not HiOutLineMenu */}
+      { mobileMenuOpen ? ( 
+   
+      ) : 
+      
+      }
      </div>
 
       {/* here is a static class the next class is a dynamic class */}
