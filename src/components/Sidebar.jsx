@@ -7,7 +7,10 @@ import { logo } from '../assets';
 import { links } from "../assets/constants";
 
 const NavLinks = ({ handleClick }) => (
- 
+  <div className="mt-10">
+    {)}
+  </div>
+)
 
 
 
