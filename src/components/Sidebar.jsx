@@ -9,7 +9,7 @@ import { links } from "../assets/constants";
 const NavLinks = ({ handleClick }) => (
   <div className="mt-10">
     {links.map((item) => ( 
-   
+      <NavLink 
     
    
      
