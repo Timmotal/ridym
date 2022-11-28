@@ -24,6 +24,12 @@ const NavLinks = ({ handleClick }) => (
 )
 
 
+const Sidebar = () => {
+  
+ 
 
+ 
+    // <div>Sidebar</div>
+};
 
 
