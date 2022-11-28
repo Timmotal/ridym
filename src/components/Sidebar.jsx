@@ -55,7 +55,7 @@ const Sidebar = () => {
                   ${mobileMenuOpen ? 'left-0' : 'left-full'} `}>
       <img src={logo} alt="logo" className="w-full h14 object-contain" />
       {/* how in the world is the NavLink getting handleLClick??, hAHA IT IS A COMPONENT WHICH IS SOME WHERE UP THERE */}
-
+      <NavLinks />
     </div>
     </>
   );
