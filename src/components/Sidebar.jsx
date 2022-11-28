@@ -6,7 +6,8 @@ import { HiOutlineMenu } from "react-icons/hi";
 import { logo } from '../assets';
 import { links } from "../assets/constants";
 
-
+const NavLinks = ({ handleClick }) => (
+ 
 
 
 
