@@ -16,7 +16,7 @@ const NavLinks = ({ handleClick }) => (
       // if handleClick exists only then call handle click, where is handleClick though?
       onClick={() => handleClick && handleClick()}
       >
-      
+        <item.icon className="w-6 h-6 mr-2"/>
    
      
     ))}
