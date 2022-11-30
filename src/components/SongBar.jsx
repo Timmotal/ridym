@@ -30,7 +30,15 @@ const SongBar = ({ song, i, artistId, isPlaying, activeSong, handlePauseClick, h
       </div>
     </div>
     {!artistId
-     
+      ? (
+        <PlayPause
+   
+    
+       
+   
+      
+        />
+      )
       : null}
   </div>
 );
