@@ -36,7 +36,7 @@ const SongBar = ({ song, i, artistId, isPlaying, activeSong, handlePauseClick, h
           activeSong={activeSong}
           song={song}
           handlePause={handlePauseClick}
-      
+          handlePlay={() =>}
         />
       )
       : null}
