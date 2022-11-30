@@ -20,7 +20,9 @@ const SongBar = ({ song, i, artistId, isPlaying, activeSong, handlePauseClick, h
             </p>
           </Link>
         ) : (
-        
+          <p className="text-xl font-bold text-white">
+       
+          </p>
         )}
        
       </div>
