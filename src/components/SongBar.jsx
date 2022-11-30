@@ -34,7 +34,7 @@ const SongBar = ({ song, i, artistId, isPlaying, activeSong, handlePauseClick, h
         <PlayPause
           isPlaying={isPlaying}
           activeSong={activeSong}
-       
+          song={song}
    
       
         />
