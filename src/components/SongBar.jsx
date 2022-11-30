@@ -12,7 +12,9 @@ const SongBar = ({ song, i, artistId, isPlaying, activeSong, handlePauseClick, h
         src={artistId ? song?.attributes?.artwork?.url.replace('{w}', '125').replace('{h}', '125') : song?.images?.coverart}
         alt={song?.title}
       />
-     
+      <div className="flex-1 flex flex-col justify-center mx-3">
+      
+      </div>
     </div>
    
   </div>
