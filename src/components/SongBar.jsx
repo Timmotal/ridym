@@ -32,7 +32,7 @@ const SongBar = ({ song, i, artistId, isPlaying, activeSong, handlePauseClick, h
     {!artistId
       ? (
         <PlayPause
-   
+          isPlaying={isPlaying}
     
        
    
