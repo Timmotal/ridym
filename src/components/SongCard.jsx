@@ -31,7 +31,7 @@ const SongCard = ({ song, isPlaying, activeSong, i, data }) => {
           <PlayPause 
           song={song}
           isPlaying={isPlaying}
-     
+          activeSong={activeSong}
         
         
           />
