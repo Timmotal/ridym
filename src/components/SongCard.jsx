@@ -41,7 +41,7 @@ const SongCard = ({ song, isPlaying, activeSong, i, data }) => {
           so of the nigerians songs had no images and then my app ran into problems */}
 
           {/* and yes the tutor definitlely added "?" but some how i missed it, fk us bro hehe */}
-         <img  alt="song_img" />
+         <img src={song.images?.coverart} alt="song_img" />
     </div>
 
    
