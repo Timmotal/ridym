@@ -36,11 +36,12 @@ const SongCard = ({ song, isPlaying, activeSong, i, data }) => {
           handlePlay={handlePlayClick}
           />
          </div>
-         
-         
+          {/* now i will go check wether the tutor added "?" before the coverart
+          i see what the tutoe mentioned about adding "?" so you get undefined instead of errors
+          so of the nigerians songs had no images and then my app ran into problems */}
 
-    
-        
+          {/* and yes the tutor definitlely added "?" but some how i missed it, fk us bro hehe */}
+         <img  alt="song_img" />
     </div>
 
    
