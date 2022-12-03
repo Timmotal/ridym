@@ -33,7 +33,7 @@ const SongCard = ({ song, isPlaying, activeSong, i, data }) => {
           isPlaying={isPlaying}
           activeSong={activeSong}
           handlePause={handlePauseClick}
-        
+          handlePlay={handlePlayClick}
           />
          </div>
          
