@@ -5,7 +5,7 @@ import PlayPause from './PlayPause';
 import { playPause, setActiveSong } from '../redux/features/playerSlice';
 
 
-const SongCard = ({ ) => {
+const SongCard = ({ song, isPlaying, activeSong, i, data }) => {
   // const activeSong = 'Test';
 
  
