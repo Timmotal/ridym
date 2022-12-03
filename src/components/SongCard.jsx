@@ -44,7 +44,10 @@ const SongCard = ({ song, isPlaying, activeSong, i, data }) => {
          <img src={song.images?.coverart} alt="song_img" />
     </div>
 
-   
+    <div className="mt-4 flex flex-col">
+      
+      
+    </div>
   </div>
   // <div>SongCard</div>
 )
