@@ -16,7 +16,7 @@ const SongCard = ({ song, isPlaying, activeSong, i, data }) => {
 
   // why are we not also passing the argument into the function here like we did in TopPlay
   const handlePlayClick = () => {
-   
+    dispatch(setActiveSong({ song, data, i }));
   
   };
 
