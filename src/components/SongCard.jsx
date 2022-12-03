@@ -45,7 +45,9 @@ const SongCard = ({ song, isPlaying, activeSong, i, data }) => {
     </div>
 
     <div className="mt-4 flex flex-col">
-      
+      <p className='font-semibold text-lg text-white truncate'>
+        
+        </p>
       
     </div>
   </div>
