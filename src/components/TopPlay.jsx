@@ -114,7 +114,7 @@ const TopPlay = () => {
         freeMode
         centeredSlides
         centeredSlidesBounds
-       
+        modules={[FreeMode]}
       
       >
 
