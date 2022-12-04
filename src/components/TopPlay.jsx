@@ -76,7 +76,10 @@ const TopPlay = () => {
     dispatch(playPause(true));
   };
 
- 
+  return (
+   
+  )
+
  // <div>TopPlay</div>
 }
  
