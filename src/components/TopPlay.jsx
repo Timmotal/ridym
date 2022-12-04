@@ -26,7 +26,9 @@ const TopChartCard = ({ song, i, isPlaying, handlePauseClick, handlePlayClick, a
         </Link>
 
         <Link to={`/artists/${song?.artists[0].adamid}`}>
-        
+          <p className="text-base text-gray-300 mt-1 text-white">
+         
+          </p>
         </Link>
 
       </div>
