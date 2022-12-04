@@ -120,7 +120,13 @@ const TopPlay = () => {
         {/* i've always wondered what in the world does the question mark "?" mean, alas i still dont understand */}
         {/* why cant it just be mapped directly without having to check if it exists first */}
         {topPlays?.map((song, i) => (
-          
+          <SwiperSlide 
+         
+           
+            
+            >
+              
+          </SwiperSlide>
         ))}
       </Swiper>
       </div>
