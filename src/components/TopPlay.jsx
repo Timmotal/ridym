@@ -43,7 +43,7 @@ const TopChartCard = ({ song, i, isPlaying, handlePauseClick, handlePlayClick, a
     /> */}
 
 <PlayPause 
-
+          song={song}
        
        
           
