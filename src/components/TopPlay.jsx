@@ -70,7 +70,7 @@ const TopPlay = () => {
     dispatch(playPause(false));
   };
 
-
+  const handlePlayClick = ( song, i ) => {
  
  
  // <div>TopPlay</div>
