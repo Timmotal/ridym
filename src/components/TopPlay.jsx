@@ -60,7 +60,9 @@ const TopPlay = () => {
   const { data } = useGetTopChartsQuery();
   const divRef = useRef(null);
 
-\
+  useEffect(() => {
+  \
+  });
 
 
 
