@@ -89,7 +89,13 @@ const TopPlay = () => {
         {topPlays?.map((song, i) => (
           <TopChartCard
           key={song.key}
-          song={song}/>
+          song={song}
+          i={i}
+
+       
+     
+         
+          />
         ))}
       </div>
       </div>
