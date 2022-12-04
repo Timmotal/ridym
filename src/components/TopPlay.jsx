@@ -55,7 +55,7 @@ const TopChartCard = ({ song, i, isPlaying, handlePauseClick, handlePlayClick, a
 
 
 const TopPlay = () => {
- 
+  const dispatch = useDispatch();
 
 
 
