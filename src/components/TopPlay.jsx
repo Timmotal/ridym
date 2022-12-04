@@ -4,7 +4,7 @@ import { useSelector,useDispatch } from 'react-redux';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { FreeMode } from 'swiper';
 
-
+import PlayPause from './PlayPause';
 
 
 
