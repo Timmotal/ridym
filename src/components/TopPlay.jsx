@@ -91,7 +91,7 @@ const TopPlay = () => {
           key={song.key}
           song={song}
           i={i}
-
+          isPlaying={isPlaying}
        
      
          
