@@ -7,7 +7,7 @@ import { useGetSongsByCountryQuery } from "../redux/services/shazamCore";
 // import { useContext } from 'react';
 
 const AroundYou = () => {
-
+    const [country, setCountry] = useState('');
   
   
 
