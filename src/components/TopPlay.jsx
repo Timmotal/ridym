@@ -34,9 +34,21 @@ const TopChartCard = ({ song, i, isPlaying, handlePauseClick, handlePlayClick, a
       </div>
     </div>
 
-  
+    {/* <PlayPause 
+      isPlaying={isPlaying}
+      activeSong={activeSong}
+      song={song}
+      handlePauseClick={handlePauseClick} --------i literally stared at this code for 4 hours
+      handlePlayClick={handlePlayClick}    -------and  couldnt see the obvious staring back at me for like forever
+    /> */}
 
+<PlayPause 
 
+       
+       
+          
+        
+          />
   </div>
 )
 
