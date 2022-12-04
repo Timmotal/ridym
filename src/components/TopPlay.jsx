@@ -54,6 +54,18 @@ const TopChartCard = ({ song, i, isPlaying, handlePauseClick, handlePlayClick, a
 
 
 
+const TopPlay = () => {
+ 
 
+
+
+
+
+
+ 
+ 
+ // <div>TopPlay</div>
+}
+ 
 
 
