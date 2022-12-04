@@ -19,7 +19,9 @@ const TopChartCard = ({ song, i, isPlaying, handlePauseClick, handlePlayClick, a
     <div className="flex-1 flex flex-row justify-between items-center">
       <img src={song?.images?.coverart} alt={song?.title} className="w-20 h-20 rounded-lg" />
       <div className="flex-1 flex flex-col justify-center mx-3">
-       
+        <Link to={`/songs/${song.key}`}>
+        
+        </Link>
 
       
       </div>
