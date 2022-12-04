@@ -61,7 +61,7 @@ const TopPlay = () => {
   const divRef = useRef(null);
 
   useEffect(() => {
-  \
+    divRef.current.scrollIntoView({ behavior: 'smooth'});
   });
 
 
