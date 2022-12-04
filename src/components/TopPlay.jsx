@@ -86,7 +86,9 @@ const TopPlay = () => {
         </Link>
       </div>
       <div className="mt-4 flex flex-col gap-1">
-     
+        {topPlays?.map((song, i) => (
+        
+        ))}
       </div>
       </div>
       
