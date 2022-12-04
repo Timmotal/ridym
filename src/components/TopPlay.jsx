@@ -111,7 +111,7 @@ const TopPlay = () => {
       <Swiper
         slidesPerView="auto"
         spaceBetween={15}
-      
+        freeMode
         
        
        
