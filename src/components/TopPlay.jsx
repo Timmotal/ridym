@@ -92,7 +92,7 @@ const TopPlay = () => {
           song={song}
           i={i}
           isPlaying={isPlaying}
-       
+          activeSong={activeSong}
      
          
           />
