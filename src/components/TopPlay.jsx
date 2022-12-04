@@ -113,7 +113,7 @@ const TopPlay = () => {
         spaceBetween={15}
         freeMode
         centeredSlides
-       
+        centeredSlidesBounds
        
       
       >
