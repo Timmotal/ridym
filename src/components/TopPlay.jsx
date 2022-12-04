@@ -121,7 +121,7 @@ const TopPlay = () => {
         {/* why cant it just be mapped directly without having to check if it exists first */}
         {topPlays?.map((song, i) => (
           <SwiperSlide 
-         
+            key={song.key}
            
             
             >
