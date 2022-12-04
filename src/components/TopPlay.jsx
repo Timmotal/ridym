@@ -93,7 +93,7 @@ const TopPlay = () => {
           i={i}
           isPlaying={isPlaying}
           activeSong={activeSong}
-     
+          handlePauseClick={handlePauseClick}
          
           />
         ))}
