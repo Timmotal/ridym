@@ -109,7 +109,7 @@ const TopPlay = () => {
       </div>
 
       <Swiper
-    
+        slidesPerView="auto"
         
       
         
