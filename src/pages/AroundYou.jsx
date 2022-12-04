@@ -4,7 +4,23 @@ import { useSelector } from "react-redux";
 
 import { Error, Loader, SongCard } from "../components";
 import { useGetSongsByCountryQuery } from "../redux/services/shazamCore";
+// import { useContext } from 'react';
+
+const AroundYou = () => {
+
+  
+  
 
 
+    
+   
+
+
+
+
+    
+
+   
+};
 
 
