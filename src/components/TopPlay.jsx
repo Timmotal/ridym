@@ -115,7 +115,7 @@ const TopPlay = () => {
         centeredSlides
         centeredSlidesBounds
         modules={[FreeMode]}
-      
+        className="mt-4"
       >
 
        
