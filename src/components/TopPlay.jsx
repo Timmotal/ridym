@@ -47,7 +47,7 @@ const TopChartCard = ({ song, i, isPlaying, handlePauseClick, handlePlayClick, a
           isPlaying={isPlaying}
           activeSong={activeSong}
           handlePause={handlePauseClick}
-        
+          handlePlay={handlePlayClick}
           />
   </div>
 )
