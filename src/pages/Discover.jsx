@@ -54,7 +54,7 @@ const { activeSong, isPlaying, genreListId } = useSelector((state) => state.play
                         key={song.key}
                         song={song}
                         isPlaying={isPlaying}
-                        
+                        activeSong={activeSong}
                 
                   
                     />
