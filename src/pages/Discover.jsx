@@ -37,7 +37,7 @@ const { activeSong, isPlaying, genreListId } = useSelector((state) => state.play
                     </h2>
                     <select 
                         onChange={(e) => dispatch(selectGenreListId(e.target.value))}
-                     
+                        value={genreListId || 'pop'}
                  
                            
                           
