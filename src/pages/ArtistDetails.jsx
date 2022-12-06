@@ -5,7 +5,7 @@ import { useGetArtistDetailsQuery } from "../redux/services/shazamCore";
 
 //SO MUCH TO BREAKDOWN AND UNDERSTAND HERE
 
-
+const ArtistDetails = () => {
    
 
 
