@@ -27,7 +27,8 @@ const ArtistDetails = () => {
                     data={Object.values(artistData?.songs)} // we simple want to format our songs in a proper way so that we can render songs from that specific artist
                     artistId={artistId}
                     isPlaying={isPlaying} //i didnt add this in the destructor useState
-                    
+                    activeSong={activeSong}
+                    //so why does he use handlePuaseClick and some times handlePause as a property title
                 />
         </div>
         // <div>ArtistDetails</div>;
