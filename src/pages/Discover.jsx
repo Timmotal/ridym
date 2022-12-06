@@ -29,7 +29,11 @@ const { activeSong, isPlaying, genreListId } = useSelector((state) => state.play
     const genreTitle = genres.find(({ value}) => value === genreListId)?.title;
     console.log(genres)
     return (
-      >
+        <div className="flex flex-col">
+                
+
+           
+        </div>
     )
 };
 
