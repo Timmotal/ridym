@@ -10,9 +10,10 @@ const ArtistDetails = () => {
     // tutor says the song id will allow us to make another API call to fetch more details about the song
     const { activeSong, playPause, isPlaying } = useSelector((state) => state.player);
     const { data: artistData, isFetching: isFetchingArtistDetails, error } = useGetArtistDetailsQuery(artistId); 
+    // alright, i want to see how we use "artistId" here, since we are not destructuring
+     
 
-
-
+    if(isFetchingArtistDetails) return // so wtf is isFecthing, gow does it work?
 
 
 
