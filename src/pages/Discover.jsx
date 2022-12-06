@@ -45,7 +45,11 @@ const { activeSong, isPlaying, genreListId } = useSelector((state) => state.play
                         </select>
             </div>      
 
-           
+            <div className="flex flex-wrap sm:justify-start justify-center gap-8">
+         
+                  
+                ))}
+            </div>
         </div>
     )
 };
