@@ -46,8 +46,11 @@ const { activeSong, isPlaying, genreListId } = useSelector((state) => state.play
             </div>      
 
             <div className="flex flex-wrap sm:justify-start justify-center gap-8">
-         
-                  
+                {/* here we are using a demo array, and we are pretending each num is a song */}
+                {/* {[ 9, 8, 7, , 5, 4, 3, 2, 1, 0 ].map((song, i) => ( */}
+                {/* we added question marl "?" incase data doesnt exist yet */}
+                    {data?.map((song, i) => (
+                  >
                 ))}
             </div>
         </div>
