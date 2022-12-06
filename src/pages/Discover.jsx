@@ -64,4 +64,4 @@ const { activeSong, isPlaying, genreListId } = useSelector((state) => state.play
     )
 };
 
-
+export default Discover;
