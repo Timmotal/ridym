@@ -6,7 +6,7 @@
 
 
 export {
- 
+  Discover,
   Search,
   TopArtists,
   ArtistDetails,
