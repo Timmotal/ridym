@@ -7,7 +7,7 @@
 
 export {
  
-
+  Search,
   TopArtists,
   ArtistDetails,
   SongDetails,
