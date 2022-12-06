@@ -14,6 +14,7 @@ const ArtistDetails = () => {
      
 
     if(isFetchingArtistDetails) return // so wtf is isFecthing, gow does it work?
+    <Loader title="i give them chance chance"/>;
 
 
 
