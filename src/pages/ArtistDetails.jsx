@@ -25,7 +25,7 @@ const ArtistDetails = () => {
                 <RelatedSongs
                 // key={i} 
                     data={Object.values(artistData?.songs)} // we simple want to format our songs in a proper way so that we can render songs from that specific artist
-           
+                    artistId={artistId}
                    
                     
                 />
