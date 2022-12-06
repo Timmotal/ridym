@@ -24,7 +24,7 @@ const { activeSong, isPlaying, genreListId } = useSelector((state) => state.play
 
     if ( isFetching) return <Loader title="Loading songs..." />;
 
-
+    if (error) return <Error />
 
    
  
