@@ -35,7 +35,14 @@ const { activeSong, isPlaying, genreListId } = useSelector((state) => state.play
                 <h2 className="font-bold text-3xl text-white text-left">
                     Discover {genreTitle}
                     </h2>
-                  
+                    <select 
+                       
+                     
+                 
+                           
+                          
+                          
+                        </select>
             </div>      
 
            
