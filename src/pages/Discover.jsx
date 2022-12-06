@@ -30,7 +30,11 @@ const { activeSong, isPlaying, genreListId } = useSelector((state) => state.play
     console.log(genres)
     return (
         <div className="flex flex-col">
+            {/* he's using a tailwind extension for seeing what eachtail wind property does */}
+            <div className="w-full flex justify-between items-center sm:flex-row flex-col mt-4 mb-10">
                 
+                  
+            </div>      
 
            
         </div>
