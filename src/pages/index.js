@@ -1,4 +1,4 @@
-
+import Discover from './Discover';
 
 
 
