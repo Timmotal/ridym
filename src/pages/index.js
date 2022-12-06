@@ -8,7 +8,7 @@
 export {
  
 
-
+  TopArtists,
   ArtistDetails,
   SongDetails,
   TopCharts,
