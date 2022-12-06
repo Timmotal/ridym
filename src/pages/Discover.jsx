@@ -14,6 +14,13 @@ const Discover = () => {
 const dispatch = useDispatch();
 const { activeSong, isPlaying, genreListId } = useSelector((state) => state.player);
 
+// feel the powerof redux once youload a genre once it doesnt get loaded a second TimeRanges, it saves in cache
+
+// hey bro can you feel this, how we are making genre dynamic straight from "select and endpoint"
+    const { data, isFetching, error} = useGetSongsByGenreQuery(genreListId || 'WORLDWIDE');
+    // console.log(data);
+
+    // const genreTitle = 'Pop'; so we move this a couple of lines below, why so?
 
 
 
