@@ -19,7 +19,10 @@ const ArtistDetails = () => {
     if (error) return <Error />;
 
     return (
-        
+        <div className="flex flex-col">
+    
+
+        </div>
         // <div>ArtistDetails</div>;
     )
 };
