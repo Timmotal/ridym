@@ -27,8 +27,10 @@ const { activeSong, isPlaying, genreListId } = useSelector((state) => state.play
     if (error) return <Error />
 
     const genreTitle = genres.find(({ value}) => value === genreListId)?.title;
- 
-    
+    console.log(genres)
+    return (
+      >
+    )
 };
 
 
