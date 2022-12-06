@@ -22,6 +22,10 @@ const ArtistDetails = () => {
         <div className="flex flex-col">
             <DetailsHeader artistId={artistId} artistData={artistData} />
 
+                <RelatedSongs
+               
+                    
+                />
         </div>
         // <div>ArtistDetails</div>;
     )
