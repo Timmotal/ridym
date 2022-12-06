@@ -18,5 +18,9 @@ const ArtistDetails = () => {
 
     if (error) return <Error />;
 
-   
+    return (
+        
+        // <div>ArtistDetails</div>;
+    )
+};
 
