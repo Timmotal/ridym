@@ -12,7 +12,7 @@ import {useGetSongsByGenreQuery } from "../redux/services/shazamCore";
 
 const Discover = () => {
 const dispatch = useDispatch();
-
+const { activeSong, isPlaying, genreListId } = useSelector((state) => state.player);
 
 
 
