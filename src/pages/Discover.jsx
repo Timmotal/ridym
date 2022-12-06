@@ -10,5 +10,18 @@ import {useGetSongsByGenreQuery } from "../redux/services/shazamCore";
 // "DISPATCH" when we want to modify the "STATE"
 // with a SELECTOR we will be able to fetch that modified STATE
 
+const Discover = () => {
+
+
+
+
+
+
+
+
+   
+ 
+    
+};
 
 
