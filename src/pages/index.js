@@ -10,7 +10,7 @@ export {
 
 
 
-
+  SongDetails,
   TopCharts,
   AroundYou,
 };
