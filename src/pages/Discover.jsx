@@ -22,7 +22,7 @@ const { activeSong, isPlaying, genreListId } = useSelector((state) => state.play
 
     // const genreTitle = 'Pop'; so we move this a couple of lines below, why so?
 
-
+    if ( isFetching) return <Loader title="Loading songs..." />;
 
 
 
