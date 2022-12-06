@@ -1,5 +1,5 @@
 import Discover from './Discover';
-
+import TopArtists from './TopArtists';
 
 
 
