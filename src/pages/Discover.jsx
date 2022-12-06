@@ -52,7 +52,7 @@ const { activeSong, isPlaying, genreListId } = useSelector((state) => state.play
                     {data?.map((song, i) => (
                     <SongCard 
                         key={song.key}
-              
+                        song={song}
                   
                         
                 
