@@ -36,7 +36,7 @@ const { activeSong, isPlaying, genreListId } = useSelector((state) => state.play
                     Discover {genreTitle}
                     </h2>
                     <select 
-                       
+                        onChange={(e) => dispatch(selectGenreListId(e.target.value))}
                      
                  
                            
