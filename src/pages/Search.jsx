@@ -16,6 +16,10 @@ const Search = () => {
     const songs = data?.tracks?.hits?.map((song) => song.track); // why did we do this, can you do it another way, more crass perhaps
 
 
+    if(isFetching) return <Loader title="loadin din din loading" />
+
+    //if there's an error and country is not an empty string
+
 
     
 };
