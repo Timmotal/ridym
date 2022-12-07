@@ -8,7 +8,7 @@ import { useGetSongsBySearchQuery } from "../redux/services/shazamCore";
 
 const Search = () => {
   const { searchTerm } = useParams(); // to get the search term from the URL, broo dig it in
-
+    const { activeSong, isPlaying } = useSelector((state) => state.player);
    
     
 };
