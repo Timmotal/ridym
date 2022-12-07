@@ -13,6 +13,10 @@ const Search = () => {
     // thereby allowing us to make those calls and wrote proper reuseable components
     const { data, isFetching, error } = useGetSongsBySearchQuery(searchTerm);
 
+    const songs = data?.tracks?.hits?.map((song) => song.track); // why did we do this, can you do it another way, more crass perhaps
+
+
+
     
 };
 
