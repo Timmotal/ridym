@@ -30,7 +30,8 @@ const Search = () => {
             </h2>
 <div className="flex flex-wrap sm:justify-start justify-center gap-8">
     {songs?.map((song, i) => (
-      
+        <SongCard 
+        />
     ))}
 </div>
 
