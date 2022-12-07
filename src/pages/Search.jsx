@@ -6,4 +6,7 @@ import { Error, Loader, SongCard } from "../components";
 import { useGetSongsBySearchQuery } from "../redux/services/shazamCore";
 // import { useContext } from 'react';
 
+const Search = () => {  
+};
+
 
