@@ -28,7 +28,9 @@ const Search = () => {
             <span className="font-black"> {searchTerm}'s </span>
              sacrifice
             </h2>
-
+<div className="flex flex-wrap sm:justify-start justify-center gap-8">
+    )}
+</div>
 
         </div>
     )
