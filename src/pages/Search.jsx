@@ -34,6 +34,9 @@ const Search = () => {
             key={song.key}
             song={song}
             isPlaying={isPlaying}
+            activeSong={activeSong}
+     
+   
         />
     ))}
 </div>
