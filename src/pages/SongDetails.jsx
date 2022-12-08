@@ -52,6 +52,8 @@ const SongDetails = () => {
                     isPlaying={isPlaying} //i didnt add this in the destructor useState
                     activeSong={activeSong}
                     handlePauseClick={handlePauseClick}
+                    handlePlayClick={handlePlayClick}
+                    //so why does he use handlePuaseClick and some times handlePause as a property title
                 />
         </div>
         // <div>SongDetails</div>;
