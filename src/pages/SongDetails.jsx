@@ -47,6 +47,8 @@ const SongDetails = () => {
                 </div>
 
                 <RelatedSongs
+                // key={i} 
+                    data={data}
                 />
         </div>
         // <div>SongDetails</div>;
