@@ -12,7 +12,7 @@ const SongDetails = () => {
     const dispatch = useDispatch(); // here we are initializing dispatch
     const { activeSong, playPause, isPlaying } = useSelector((state) => state.player);
     const { data: songData, isFetching: isFetchingSongDetails } = useGetSongDetailsQuery({ songid }); //fell Adrian's (01:51:03)
-  
+    const { data, isFetching: isFetchingRelatedSongs, error } = useGetSongRelatedQuery({ songid });
 
     
      
