@@ -8,6 +8,10 @@ import { useGetSongDetailsQuery, useGetSongRelatedQuery } from "../redux/service
 
 const SongDetails = () => {
     const { songid } = useParams();
+    // tutor says the song id will allow us to make another API call to fetch more details about the song
+    const dispatch = useDispatch(); 
+  
+  
 
  
 
