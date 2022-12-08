@@ -32,7 +32,11 @@ const SongDetails = () => {
     if (error) return <Error />;
 
     return (
-       
+        <div className="flex flex-col">
+    
+            
+
+        </div>
         // <div>SongDetails</div>;
     )
 };
