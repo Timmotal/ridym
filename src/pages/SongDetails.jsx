@@ -33,7 +33,7 @@ const SongDetails = () => {
 
     return (
         <div className="flex flex-col">
-            <DetailsHeader  />
+            <DetailsHeader artistId=""  />
             
 
         </div>
