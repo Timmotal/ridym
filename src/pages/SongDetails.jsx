@@ -6,6 +6,13 @@ import { useGetSongDetailsQuery, useGetSongRelatedQuery } from "../redux/service
 
 //SO MUCH TO BREAKDOWN AND UNDERSTAND HERE
 
+const SongDetails = () => {
+
+
+ 
+
+ 
+};
 
 
 
