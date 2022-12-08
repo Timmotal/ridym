@@ -9,7 +9,9 @@ import { useGetSongDetailsQuery, useGetSongRelatedQuery } from "../redux/service
 const SongDetails = () => {
     const { songid } = useParams();
     // tutor says the song id will allow us to make another API call to fetch more details about the song
-    const dispatch = useDispatch(); 
+    const dispatch = useDispatch(); // here we are initializing dispatch
+    const { activeSong, playPause, isPlaying } = useSelector((state) => state.player);
+
   
   
 
