@@ -60,5 +60,5 @@ const SongDetails = () => {
     )
 };
 
-
+export default SongDetails;
 
