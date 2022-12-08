@@ -39,6 +39,9 @@ const SongDetails = () => {
                     Lyrics:
                     </h2>
 
+                    <div className="mt-5">
+                        
+                    </div>
                 </div>
 
         </div>
