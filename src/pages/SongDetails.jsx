@@ -14,6 +14,9 @@ const SongDetails = () => {
     const { data: songData, isFetching: isFetchingSongDetails } = useGetSongDetailsQuery({ songid }); //fell Adrian's (01:51:03)
     const { data, isFetching: isFetchingRelatedSongs, error } = useGetSongRelatedQuery({ songid });
 
+    const handlePauseClick = () => {
+ 
+      };
     
      
 
