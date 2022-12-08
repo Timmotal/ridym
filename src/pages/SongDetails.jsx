@@ -41,7 +41,7 @@ const SongDetails = () => {
 
                     <div className="mt-5">
                         {songData?.sections[1].type === 'LYRICS' ? songData?.sections[1].text.map((line, i) => (
-                            
+                            <p className="text-gray-400 text-base my-1">{line}</p>
                         )) : }
                     </div>
                 </div>
