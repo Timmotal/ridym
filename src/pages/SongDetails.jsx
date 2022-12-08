@@ -49,6 +49,9 @@ const SongDetails = () => {
                 <RelatedSongs
                 // key={i} 
                     data={data}
+                    isPlaying={isPlaying} //i didnt add this in the destructor useState
+                    activeSong={activeSong}
+                    handlePauseClick={handlePauseClick}
                 />
         </div>
         // <div>SongDetails</div>;
