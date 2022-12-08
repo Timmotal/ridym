@@ -29,7 +29,7 @@ const SongDetails = () => {
     if(isFetchingSongDetails || isFetchingRelatedSongs) return // so wtf is isFecthing, gow does it work?
     <Loader title="I cant breathe"/>;
 
- 
+    if (error) return <Error />;
 
  
 };
