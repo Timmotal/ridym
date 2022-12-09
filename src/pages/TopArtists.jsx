@@ -16,7 +16,9 @@ const TopArtists = () => {
             hoty hotyy in your blocks
             </h2>
 <div className="flex flex-wrap sm:justify-start justify-center gap-8">
-   
+    {data?.map((track) => (
+       
+    ))}
 </div>
 
         </div>
