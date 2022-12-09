@@ -10,7 +10,9 @@ const TopArtists = () => {
     //if there's an error and country is not an empty string
     if(error) return <Error />;
 
+    return (
     
+    )
 };
 
 
