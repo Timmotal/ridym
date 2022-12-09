@@ -3,7 +3,7 @@ import { useGetTopChartsQuery } from "../redux/services/shazamCore";
 
 const TopArtists = () => {
 
-    
+    const { data, isFetching, error } = useGetTopChartsQuery();
 
  
 
