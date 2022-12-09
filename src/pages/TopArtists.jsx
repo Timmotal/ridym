@@ -19,7 +19,7 @@ const TopArtists = () => {
     {data?.map((track) => (
         <ArtistCard // feel the power and re-useability of components in react
             key={track.key}
-       
+            track={track}
         />
     ))}
 </div>
