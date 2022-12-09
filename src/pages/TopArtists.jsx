@@ -5,7 +5,7 @@ const TopArtists = () => {
 
     const { data, isFetching, error } = useGetTopChartsQuery();
 
- 
+    if(isFetching) return 
 
     //if there's an error and country is not an empty string
   
