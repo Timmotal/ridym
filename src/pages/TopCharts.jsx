@@ -13,6 +13,7 @@ const TopCharts = () => {
     const { data, isFetching, error } = useGetTopChartsQuery();
 
 
+    if(isFetching) return <Loader title="loadin din din loading" />
 
 
     
