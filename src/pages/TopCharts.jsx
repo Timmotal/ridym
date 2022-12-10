@@ -40,4 +40,4 @@ const TopCharts = () => {
     )
 };
 
-
+export default TopCharts; 
