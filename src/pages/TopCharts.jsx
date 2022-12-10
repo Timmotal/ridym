@@ -15,7 +15,12 @@ const TopCharts = () => {
 
     if(isFetching) return <Loader title="loadin din din loading" />
 
+    //if there's an error and country is not an empty string
+    if(error) return <Error />;
 
-    
+    return (
+        
+    )
+};
 
 
