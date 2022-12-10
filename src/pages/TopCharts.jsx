@@ -27,7 +27,7 @@ const TopCharts = () => {
     {data?.map((song, i) => (
         <SongCard // feel the power and re-useability of components in react
             key={song.key}
- 
+            song={song}
     
          
         
