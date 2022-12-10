@@ -25,7 +25,14 @@ const TopCharts = () => {
             </h2>
 <div className="flex flex-wrap sm:justify-start justify-center gap-8">
     {data?.map((song, i) => (
+        <SongCard // feel the power and re-useability of components in react
+   
+ 
+    
+         
         
+    
+        />
     ))}
 </div>
 
