@@ -7,7 +7,7 @@ import { useGetTopChartsQuery } from "../redux/services/shazamCore";
 // import { useContext } from 'react';
 
 const TopCharts = () => {
-   
+    const { activeSong, isPlaying } = useSelector((state) => state.player);
 
 
 
