@@ -28,7 +28,7 @@ const TopCharts = () => {
         <SongCard // feel the power and re-useability of components in react
             key={song.key}
             song={song}
-    
+            isPlaying={isPlaying}
          
         
     
