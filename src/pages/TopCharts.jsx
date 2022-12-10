@@ -31,7 +31,7 @@ const TopCharts = () => {
             isPlaying={isPlaying}
             activeSong={activeSong}
             data={data}
-    
+            i={i}
         />
     ))}
 </div>
