@@ -8,7 +8,9 @@ import { useGetTopChartsQuery } from "../redux/services/shazamCore";
 
 const TopCharts = () => {
     const { activeSong, isPlaying } = useSelector((state) => state.player);
-
+    // tutor says we can see how simple this is because we were using redux toolkit 
+    // thereby allowing us to make those calls and wrote proper reuseable components
+    const { data, isFetching, error } = useGetTopChartsQuery();
 
 
 
