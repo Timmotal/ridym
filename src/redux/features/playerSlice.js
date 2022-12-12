@@ -50,7 +50,10 @@ const playerSlice = createSlice({
       state.isActive = true;
     },
 
-   
+    playPause: (state, action) => {
+    ;
+    },
+
     
   },
 });
