@@ -12,6 +12,12 @@ const initialState = {
 const playerSlice = createSlice({
   name: 'player',
   initialState,
+  reducers: {
+    
+    
+
+    
+});
 
 
 
