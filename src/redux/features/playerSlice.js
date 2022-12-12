@@ -17,7 +17,7 @@ const playerSlice = createSlice({
       state.activeSong = action.payload.song;
 
       if (action.payload?.data?.tracks?.hits) {
-
+        state.currentSongs = action.payload.data.tracks.hits;
       } 
   
    
