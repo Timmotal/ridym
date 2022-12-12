@@ -36,7 +36,7 @@ const playerSlice = createSlice({
       }
 
       state.currentIndex = action.payload;
- 
+      state.isActive = true;
     },
 
     
