@@ -4,7 +4,7 @@ const initialState = {
   currentSongs: [],
   currentIndex: 0,
   isActive: false,
-
+  isPlaying: false,
 
 
 };
