@@ -18,7 +18,10 @@ const playerSlice = createSlice({
 
       if (action.payload?.data?.tracks?.hits) {
         state.currentSongs = action.payload.data.tracks.hits;
+      } else if (action.payload?.data?.properties) {
+      
       } 
+
   
    
     },
