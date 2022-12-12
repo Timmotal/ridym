@@ -54,7 +54,9 @@ const playerSlice = createSlice({
       state.isPlaying = action.payload;
     },
 
-    
+    selectGenreListId: (state, action) => {
+  
+    },
   },
 });
 
