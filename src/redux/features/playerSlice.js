@@ -35,7 +35,7 @@ const playerSlice = createSlice({
         state.activeSong = state.currentSongs[action.payload];
       }
 
- 
+      state.currentIndex = action.payload;
  
     },
 
