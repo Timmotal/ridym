@@ -60,5 +60,6 @@ const playerSlice = createSlice({
   },
 });
 
+export const { setActiveSong, nextSong, prevSong, playPause, selectGenreListId } = playerSlice.actions;
 
 
