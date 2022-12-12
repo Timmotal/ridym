@@ -6,6 +6,6 @@ const initialState = {
   isActive: false,
   isPlaying: false,
   activeSong: {},
-
+  genreListId: '',
 };
 
