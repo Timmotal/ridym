@@ -29,7 +29,10 @@ const playerSlice = createSlice({
     },
 
     nextSong: (state, action) => {
-      
+      if (state.currentSongs[action.payload]?.track) {
+       
+      }
+
  
  
     },
