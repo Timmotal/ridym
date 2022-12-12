@@ -13,7 +13,13 @@ const playerSlice = createSlice({
   name: 'player',
   initialState,
   reducers: {
-    
+    setActiveSong: (state, action) => {
+   
+
+      
+   
+    },
+
     
 
     
