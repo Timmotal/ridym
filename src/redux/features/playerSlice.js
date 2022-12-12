@@ -39,7 +39,11 @@ const playerSlice = createSlice({
       state.isActive = true;
     },
 
+    prevSong: (state, action) => {
+      
+   
     
+  },
 });
 
 
