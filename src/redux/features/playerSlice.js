@@ -20,7 +20,9 @@ const playerSlice = createSlice({
         state.currentSongs = action.payload.data.tracks.hits;
       } else if (action.payload?.data?.properties) {
         state.currentSongs = action.payload?.data?.tracks;
-      } 
+      } else {
+      
+      }
 
   
    
