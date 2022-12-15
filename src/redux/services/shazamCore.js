@@ -17,7 +17,9 @@ import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react'
         reducerPath: 'shazamCoreApi',
         baseQuery: fetchBaseQuery({
             baseUrl: 'https://shazam-core.p.rapidapi.com/v1',
-       
+        prepareHeaders: (headers) => {
+           
+        },
     }),
    
      });
