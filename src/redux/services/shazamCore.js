@@ -13,6 +13,14 @@ import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react'
 //     .then(response => console.log(response))
 //     .catch(err => console.error(err));
 
+    export const shazamCoreApi = createApi({
+        reducerPath: 'shazamCoreApi',
+        baseQuery: fetchBaseQuery({
+        
+       
+    }),
+   
+     });
     
 
    
