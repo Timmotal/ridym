@@ -27,7 +27,8 @@ import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react'
         getTopCharts: builder.query({ query: () => '/charts/world' }),
         //i want to know when we know we will need a new endpoint?
         getSongsByGenre: builder.query({ query: (genre) => `/charts/genre-world?genre_code=${genre}`}),
-        getSongDetails: builder.query({query: ({ songid }) => `/tracks/details?track_id=${songid}`})
+        getSongDetails: builder.query({query: ({ songid }) => `/tracks/details?track_id=${songid}`}),
+        getSongRelated: builder.query({ query: ({ songid }) => `/tracks/related?track_id=${songid}`}),
     }),
      });
     
