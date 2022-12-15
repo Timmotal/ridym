@@ -47,6 +47,6 @@ import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react'
         useGetArtistDetailsQuery,
         useGetSongsByCountryQuery,
         useGetSongsBySearchQuery
-    } = 
+    } = shazamCoreApi;
 
     
