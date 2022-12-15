@@ -42,7 +42,10 @@ import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react'
     export const { 
         useGetTopChartsQuery,
         useGetSongsByGenreQuery,
-       
+        useGetSongDetailsQuery, //as we know redux toolkit will generate a new query for us automatically, this is automatic bro
+        useGetSongRelatedQuery,
+       \
+       \
     } = 
 
     
