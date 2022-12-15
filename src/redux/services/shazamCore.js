@@ -46,7 +46,7 @@ import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react'
         useGetSongRelatedQuery,
         useGetArtistDetailsQuery,
         useGetSongsByCountryQuery,
-        u\
+        useGetSongsBySearchQuery
     } = 
 
     
