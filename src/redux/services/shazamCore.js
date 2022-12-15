@@ -45,7 +45,8 @@ import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react'
         useGetSongDetailsQuery, //as we know redux toolkit will generate a new query for us automatically, this is automatic bro
         useGetSongRelatedQuery,
         useGetArtistDetailsQuery,
-       \
+        useGetSongsByCountryQuery,
+        u\
     } = 
 
     
