@@ -29,6 +29,10 @@ import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react'
         getSongsByGenre: builder.query({ query: (genre) => `/charts/genre-world?genre_code=${genre}`}),
         getSongDetails: builder.query({query: ({ songid }) => `/tracks/details?track_id=${songid}`}),
         getSongRelated: builder.query({ query: ({ songid }) => `/tracks/related?track_id=${songid}`}),
+        // why destructure sometimes and why did we pass it without destructuring here
+        getArtistDetails: builder.query({ query: (artistId) => `/artists/details?artist_id=${artistId}`}),
+        getSongsByCountry: builder.query({ query: (countryCode) => `/charts/country?country_code=${countryCode}`}),
+        s 
     }),
      });
     
