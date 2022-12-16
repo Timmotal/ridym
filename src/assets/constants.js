@@ -4,7 +4,7 @@ export const genres = [
   { title: 'Pop', value: 'POP' },
   { title: 'Hip-Hop', value: 'HIP_HOP_RAP' },
   { title: 'Dance', value: 'DANCE' },
-  
+  { title: 'Electronic', value: 'ELECTRONIC' },
 
 
   
