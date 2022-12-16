@@ -7,7 +7,7 @@ export const genres = [
   { title: 'Electronic', value: 'ELECTRONIC' },
   { title: 'Soul', value: 'SOUL_RNB' },
   { title: 'Alternative', value: 'ALTERNATIVE' },
-  
+  { title: 'Rock', value: 'ROCK' },
 
 
  
