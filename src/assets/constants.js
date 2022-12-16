@@ -11,7 +11,7 @@ export const genres = [
   { title: 'Latin', value: 'LATIN' },
   { title: 'Film', value: 'FILM_TV' },
   { title: 'Country', value: 'COUNTRY' },
-
+  { title: 'Worldwide', value: 'WORLDWIDE' },
 
 
   
