@@ -10,7 +10,7 @@ export const genres = [
   { title: 'Rock', value: 'ROCK' },
   { title: 'Latin', value: 'LATIN' },
   { title: 'Film', value: 'FILM_TV' },
- 
+  { title: 'Country', value: 'COUNTRY' },
 
 
 
