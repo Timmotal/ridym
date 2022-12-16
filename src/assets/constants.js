@@ -17,4 +17,9 @@ export const genres = [
   { title: 'K-Pop', value: 'K_POP' },
 ];
 
+export const links = [
+,
+ 
 
+ 
+];
