@@ -12,7 +12,7 @@ export const genres = [
   { title: 'Film', value: 'FILM_TV' },
   { title: 'Country', value: 'COUNTRY' },
   { title: 'Worldwide', value: 'WORLDWIDE' },
-
+  { title: 'Reggae', value: 'REGGAE_DANCE_HALL' },
 
   
 ];
