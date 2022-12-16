@@ -8,7 +8,7 @@ export const genres = [
   { title: 'Soul', value: 'SOUL_RNB' },
   { title: 'Alternative', value: 'ALTERNATIVE' },
   { title: 'Rock', value: 'ROCK' },
-
+  { title: 'Latin', value: 'LATIN' },
 
  
 
