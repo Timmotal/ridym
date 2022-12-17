@@ -7,7 +7,7 @@ module.exports = {
         black: '#191624',
       },
       animation: {
-    
+        slideup: 'slideup 1s ease-in-out',
     
      
      
