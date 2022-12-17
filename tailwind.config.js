@@ -10,7 +10,8 @@ module.exports = {
         slideup: 'slideup 1s ease-in-out',
         slidedown: 'slidedown 1s ease-in-out',
         slideleft: 'slideleft 1s ease-in-out',
-     
+        slideright: 'slideright 1s ease-in-out',
+      
       
       },
      
