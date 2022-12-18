@@ -17,7 +17,8 @@ module.exports = {
       keyframes: {
         slowfade: {
           from: { opacity: 0 },
-       
+          to: { opacity: 1 },
+        },
         
        
         
