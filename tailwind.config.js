@@ -36,7 +36,7 @@ module.exports = {
           to: { opacity: 1, transform: 'translateX(0)' },
         },
         wave: {
-          
+          '0%': { transform: 'scale(0)' },
        
  
         },
