@@ -28,7 +28,7 @@ module.exports = {
           to: { opacity: 1, transform: 'none' },
         },
         slideleft: {
-         
+          from: { opacity: 0, transform: 'translateX(-20px)' },
           
         },
         
