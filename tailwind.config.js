@@ -15,7 +15,13 @@ module.exports = {
         slowfade: 'slowfade 2.2s ease-in-out',
       },
       keyframes: {
+        slowfade: {
+        
        
+        
+       
+        
+      },
     },
   },
 };
