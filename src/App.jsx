@@ -27,7 +27,7 @@ const App = () => {
             </Routes>
           </div>
           <div className="xl:sticky relative top-0 h-fit">
-            <TopPlay /> 
+            <TopPlay /> git commit -am '
           </div>
         </div>
       </div>
@@ -41,4 +41,4 @@ const App = () => {
   );
 };
 
-
+export default App;
