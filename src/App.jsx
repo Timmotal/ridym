@@ -7,7 +7,9 @@ import { ArtistDetails, TopArtists, AroundYou, Discover, Search, SongDetails, To
 const App = () => {
   const { activeSong } = useSelector((state) => state.player);
 
-  
+  return (
+    
+  );
 };
 
 
