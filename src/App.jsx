@@ -32,7 +32,9 @@ const App = () => {
         </div>
       </div>
 
-      
+      {activeSong?.title && (
+        
+      )}
     </div>
   );
 };
