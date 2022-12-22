@@ -46,7 +46,11 @@ module.exports = {
     'react/no-array-index-key': 0,
     'jsx-a11y/anchor-is-valid': [
       'error',
-    
+      {
+        components: ['Link'],
+
+     
+      },
     ],
   },
 };
