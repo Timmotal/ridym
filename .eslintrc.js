@@ -54,3 +54,4 @@ module.exports = {
     ],
   },
 };
+git commit -am '
