@@ -13,7 +13,18 @@ module.exports = {
   },
   plugins: ['react'],
   rules: {
-  
+    'max-len': 0,
+    'no-param-reassign': 0,
+    'jsx-a11y/label-has-associated-control': 0,
+    'react/function-component-definition': 0,
+    'react/react-in-jsx-scope': 0,
+    'import/extensions': 0,
+    'react/prop-types': 0,
+    'linebreak-style': 0,
+    'react/state-in-constructor': 0,
+    'import/prefer-default-export': 0,
+    'no-multiple-empty-lines': [
+      'error',
       
     ],
     
