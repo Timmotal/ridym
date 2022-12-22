@@ -30,7 +30,12 @@ module.exports = {
         maxEOF: 1,
       },
     ],
-    
+    'no-underscore-dangle': [
+      'error',
+      {
+        allow: ['_d', '_dh', '_h', '_id', '_m', '_n', '_t', '_text'],
+      },
+    ],
  
 
   },
