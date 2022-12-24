@@ -92,3 +92,19 @@ Please try to create bug reports that are:
 - _Scoped to a Single Bug._ One bug per report.
 
 
+## Pull Request
+
+There are 2 main work flows when dealing with pull requests:
+
+* Pull Request from a [forked repository](https://help.github.com/articles/fork-a-repo)
+* Pull Request from a branch within a repository
+
+Here we are going to focus on 2. Creating a Topical Branch:
+
+
+).
+
+
+
+
+#
