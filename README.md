@@ -43,3 +43,9 @@ To get started with development, you need to install few tools
    ```shell
     npm --version
    ```
+
+## Setup
+
+To set up a development environment, please follow these steps:
+
+
