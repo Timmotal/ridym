@@ -10,3 +10,8 @@ When contributing to this repository, please first discuss the change you wish t
 Please note we have a [code of conduct](CODE_OF_CONDUCT.md), please follow it in all your interactions with the project.
 
 
+## System Requirements
+
+To get started with development, you need to install few tools
+
+
