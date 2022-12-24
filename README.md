@@ -48,4 +48,9 @@ To get started with development, you need to install few tools
 
 To set up a development environment, please follow these steps:
 
+1. Clone the repo
+
+   ```shell
+    git clone https://github.com/JavaScript-Mastery-PRO/project1_team4_repository.git
+   ```
 
