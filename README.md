@@ -110,6 +110,18 @@ Here we are going to focus on 2. Creating a Topical Branch:
 
    *Note:* `git pull` does a `git fetch` followed by a `git merge` to update the local repo with the remote repo. For a more detailed explanation, see [this stackoverflow post](http://stackoverflow.com/questions/292357/whats-the-difference-between-git-pull-and-git-fetch).
 
+2. To create a branch, use `git checkout -b <new-branch-name> [<base-branch-name>]`, where `base-branch-name` is optional and defaults to `main`. 
+   
+   Use a standard convention for branch names. For example, `<your-name>-dev`. It will be easier to track your pull requests if you use this convention.
+   
+   I'm going to create a new branch called `jsm-dev` from the `main` branch and push it to github.
+
+   ```bash
+    git checkout -b jsm-dev main
+    git push origin jsm-dev
+   ```
+
+3. To create a pull request, you must have changes committed to your new branch.
 
 
 
