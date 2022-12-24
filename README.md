@@ -102,7 +102,13 @@ There are 2 main work flows when dealing with pull requests:
 Here we are going to focus on 2. Creating a Topical Branch:
 
 
-).
+1. First, we will need to create a branch from the latest commit on master. Make sure your repository is up to date first using
+
+   ```bash
+    git pull origin main
+   ```
+
+   *Note:* `git pull` does a `git fetch` followed by a `git merge` to update the local repo with the remote repo. For a more detailed explanation, see [this stackoverflow post](http://stackoverflow.com/questions/292357/whats-the-difference-between-git-pull-and-git-fetch).
 
 
 
