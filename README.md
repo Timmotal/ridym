@@ -123,6 +123,14 @@ Here we are going to focus on 2. Creating a Topical Branch:
 
 3. To create a pull request, you must have changes committed to your new branch.
 
+4. Go to [Pull Requests](https://github.com/JavaScript-Mastery-PRO/project1_team4_repository/pulls) and click on the `New Pull Request` button.
 
+5. Select the `main` branch as the `base` branch and the `jsm-dev` branch as the `compare` branch.
+
+6. Follow the template and fill in the proper information for the pull request.
+
+7. Click on the `Submit` button.
+
+8. You have successfully created a pull request. Now wait for mentor approval. Once approved, you can merge the pull request.
 
 #
