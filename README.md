@@ -24,4 +24,12 @@ To get started with development, you need to install few tools
     git --version
    ```
 
+2. node 
+   
+   `node` version 16.15.1 or higher. Download [node](https://nodejs.org/en/download/) if you don't have it already.
 
+   To check your version of node, run:
+
+   ```shell
+    node --version
+   ```
