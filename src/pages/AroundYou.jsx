@@ -21,7 +21,7 @@ const AroundYou = () => {
         // at_8QGuZ613KX5HSpwyoEFhXayemfllj
     }, [country])
 
-    console.log(country);
+    // console.log(country);
 
     if(isFetching && loading) return <Loader title="blackpink in your area" />
 

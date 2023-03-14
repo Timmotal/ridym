@@ -18,7 +18,7 @@ const { activeSong, isPlaying, genreListId } = useSelector((state) => state.play
 
 // hey bro can you feel this, how we are making genre dynamic straight from "select and endpoint"
     const { data, isFetching, error} = useGetSongsByGenreQuery(genreListId || 'WORLDWIDE');
-    console.log(data);
+    // console.log(data);
 
     // const genreTitle = 'Pop'; so we move this a couple of lines below, why so?
 

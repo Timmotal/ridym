@@ -24,7 +24,7 @@ const SongDetails = () => {
         dispatch(playPause(true));
       };
 
-    console.log(songid)
+    // console.log(songid)
 
     if(isFetchingSongDetails || isFetchingRelatedSongs) return // so wtf is isFecthing, gow does it work?
     <Loader title="I cant breathe"/>;
