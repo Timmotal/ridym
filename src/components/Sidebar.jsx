@@ -12,7 +12,7 @@ const NavLinks = ({ handleClick }) => (
       <NavLink 
       key={item.name}
       to={item.to}
-      className="flex flex-row justify-start my-8 text-sm font-medium text-gray-400 hover:text-cyan-400"
+      className="flex flex-row justify-start my-8 text-sm font-medium text-gray-400 hover:text-pink-400"
       // if handleClick exists only then call handle click, where is handleClick though?
       onClick={() => handleClick && handleClick()}
       >
@@ -31,7 +31,7 @@ const Sidebar = () => {
   return (
     <>
     
-    <div className="md:flex hidden flex-col w-[240px] py-4 px-4 bg-[#191624]">
+    <div className="md:flex hidden flex-col w-[240px] py-4 px-4 bg-[#333333]">
       <img src={logo} alt="logo" className="w-full h14 object-contain" />
       <NavLinks />
     </div>
